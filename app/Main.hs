@@ -1,6 +1,7 @@
 module Main where
 
-import Lib
+import qualified Problem1
 
 main :: IO ()
-main = someFunc
+main = do
+  print Problem1.solve
